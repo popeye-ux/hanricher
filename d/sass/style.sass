@@ -1,0 +1,333 @@
+@chart "UTF-8"
+
+*
+	padding: 0
+	margin: 0
+	
+
+*::before,*::after
+	box-sizing: border-box
+
+html,body
+	margin: 0px
+	padding: 0px
+	background-color: #1d2935
+
+html
+	font-size: 62.5%
+
+body
+	font-size: 1.8rem
+	line-height: 1.8rem
+	
+	font-family: Arial, "Open Sans", sans-serif, verdana, "Microsoft JhengHei", "微軟正黑體", "Heiti TC", "Helvetica Neue", Helvetica
+	line-height: 1.8
+
+
+a
+	color: blue
+.col-padding
+	padding-left: 5px
+	padding-right: 5px
+
+.center
+	position: absolute
+	left: 50%
+	right: 50%
+	transform: translate(-50%) transformY(-50%)
+
+.card
+	border-radius: 20px
+	border: 3px solid #fff
+	background: #f0ca35
+	padding: 0
+	overflow: hidden
+	margin-top: 30px
+	min-height: 420px
+	
+
+
+.card-content
+	background: #f0ca35
+	padding: 10px 10px 15px 10px
+	margin: 0
+	
+
+
+.card-top
+	position: relative
+.year
+	color: #000
+	font-size: 2.4rem
+	font-weight: 700
+	text-align: center
+	line-height: 2.5rem
+	margin: 0 auto 5px
+	
+
+.event
+	color: #000
+	font-size: 2.2rem
+	text-align: center
+	line-height: 2.2rem
+	margin-top: 5px
+	margin-bottom: 5px
+	
+	
+.buy
+	color: blue
+	font-size: 2.2rem
+	font-weight: 700
+	text-align: center
+	line-height: 2.2rem
+
+.price_buy
+	color: red
+	font-size: 2.5rem
+	font-weight: 700
+	text-align: center
+	line-height: 2.5rem
+
+.about
+	font-size: 2.5rem
+	color: #000
+
+.hit
+	background-color: #D95D41
+	width: 150px
+	border-radius: 25px
+	color: #fff
+	margin: 10px auto 0
+	font-size: 2.2rem
+	font-weight: 700
+	text-align: center
+	cursor: pointer
+
+.more
+	display: none
+.more1
+	font-size: 2rem
+	line-height: 2rem
+	margin-top: 20px
+.more_open
+	display: block
+.close
+	display: none
+
+.destiny_text
+	color: #000
+	font-size: 2.3rem
+	font-weight: 700
+	text-align: center
+	line-height: 2.3rem
+	width: 100%
+	padding: 10px
+	margin: 80px auto 0
+.c-more
+	font-size: 2rem
+	line-height: 2.2rem
+	text-align: left
+	margin-top: 10px
+	cursor: pointer
+	color: #fff
+
+.d-more
+	font-size: 2rem
+	line-height: 2.2rem
+	text-align: left
+	margin-top: 10px
+	cursor: pointer
+	color: blue
+
+
+.d-text
+	margin-top: 70px
+	font-size: 5rem
+	text-align: center
+	line-height: 6rem
+	color: #000
+
+.c-text
+	margin-top: 70px
+	font-size: 5rem
+	text-align: center
+	line-height: 6rem
+	color: #fff
+
+.d-click
+	margin: 60px auto 0
+	border-radius: 25px
+	width: 150px
+	background: #f0ca35
+	color: #000
+	font-size: 2.2rem
+	line-height: 3.2rem
+
+.destiny-wrap
+	margin-top: 30px
+	height: 420px
+	perspective: 600px
+
+.destiny
+	position: relative
+	width: 100%
+	height: 100%
+	transition: transform 1s
+	transform-style: preserve-3d
+	cursor: pointer
+	&:hover
+		transform: rotateY(180deg)
+		-ms-transform: rotateY(180deg)
+.d-face
+	border: 4px solid #fff
+	border-radius: 20px
+	overflow: hidden
+	position: absolute
+	width: 100%
+	height: 100%
+	line-height: 260px
+	color: #fff
+	text-align: center
+	font-weight: bold
+	font-size: 40px
+	backface-visibility: hidden
+.destiny-front
+	background: yellow
+	backface-visibility: hidden
+	-webkit-backface-visibility: hidden
+	-moz-backface-visibility: hidden
+	-ms-backface-visibility: hidden
+	-o-backface-visibility: hidden
+
+.destiny-back
+	background: yellow
+	transform: rotateY(180deg)
+	-webkit-transform: rotateY(180deg)
+	-ms-transform: rotateY(180deg)
+	backface-visibility: hidden
+	-webkit-backface-visibility: hidden
+	-moz-backface-visibility: hidden
+	-ms-backface-visibility: hidden
+	-o-backface-visibility: hidden
+
+.chance-wrap
+	margin-top: 30px
+	height: 420px
+	perspective: 600px
+
+.chance
+	position: relative
+	width: 100%
+	height: 100%
+	transition: transform 1s
+	transform-style: preserve-3d
+	cursor: pointer
+	&:hover
+		transform: rotateY(180deg)
+		-ms-transform: rotateY(180deg)
+.c-face
+	border: 4px solid #fff
+	border-radius: 20px
+	overflow: hidden
+	position: absolute
+	width: 100%
+	height: 100%
+	line-height: 260px
+	color: #fff
+	text-align: center
+	font-weight: bold
+	font-size: 40px
+	backface-visibility: hidden
+.chance-front
+	background: #f00
+	backface-visibility: hidden
+	-webkit-backface-visibility: hidden
+	-moz-backface-visibility: hidden
+	-ms-backface-visibility: hidden
+	-o-backface-visibility: hidden
+.chance-back
+	background: #ef0000
+	transform: rotateY(180deg)
+	-webkit-transform: rotateY(180deg)
+	-ms-transform: rotateY(180deg)
+	backface-visibility: hidden
+	-webkit-backface-visibility: hidden
+	-moz-backface-visibility: hidden
+	-ms-backface-visibility: hidden
+	-o-backface-visibility: hidden
+
+.end-wrap
+	margin-top: 30px
+	height: 420px
+	perspective: 600px
+
+.end
+	position: relative
+	width: 100%
+	height: 100%
+	transition: transform 1s
+	transform-style: preserve-3d
+	cursor: pointer
+	&:hover
+		transform: rotateY(180deg)
+		-ms-transform: rotateY(180deg)
+.end-face
+	border: 4px solid #fff
+	border-radius: 20px
+	overflow: hidden
+	position: absolute
+	width: 100%
+	height: 100%
+	line-height: 260px
+	color: #fff
+	text-align: center
+	font-weight: bold
+	font-size: 40px
+	backface-visibility: hidden
+.end-front
+	background: #1d78f1
+	backface-visibility: hidden
+	-webkit-backface-visibility: hidden
+	-moz-backface-visibility: hidden
+	-ms-backface-visibility: hidden
+	-o-backface-visibility: hidden
+.end-back
+	background: #1d78f1
+	transform: rotateY(180deg)
+	-webkit-transform: rotateY(180deg)
+	-ms-transform: rotateY(180deg)
+	backface-visibility: hidden
+	-webkit-backface-visibility: hidden
+	-moz-backface-visibility: hidden
+	-ms-backface-visibility: hidden
+	-o-backface-visibility: hidden
+
+.end_text
+	color: #fff
+	font-size: 3rem
+	font-weight: 700
+	text-align: center
+	line-height: 3rem
+	padding: 0px
+	margin: 0px auto 0
+
+.endgame
+	color: #fff
+	font-size: 2.5rem
+	text-align: center
+
+.end-margin
+	margin-bottom: 30px
+	margin-top: 50px
+.e-text
+	margin-top: 70px
+	font-size: 5rem
+	text-align: center
+	line-height: 6rem
+	color: #fff
+
+@media (min-width: 1024px)
+	.end-wrap
+		margin-top: 30px
+		height: 420px
+		perspective: 600px

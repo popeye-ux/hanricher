@@ -1,0 +1,142 @@
+@charset "UTF-8";
+@chart "UTF-8";
+.navbar_bgcolor {
+  background-color: #1198ff;
+  border-radius: 0;
+  margin-bottom: 0;
+  border: 0px; }
+
+.icon-bar-color {
+  width: 25px;
+  height: 3px;
+  border-radius: 1px;
+  background-color: #fff; }
+
+.navbar-brand-padding {
+  padding: 5px 15px;
+  font-size: 18px;
+  line-height: 20px; }
+
+.navbar-nav li a {
+  color: #fff;
+  font-size: 1.7rem;
+  text-shadow: none;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 16px; }
+  .navbar-nav li a:visited {
+    color: #fff;
+    background: #1b3b96; }
+  .navbar-nav li a:hover {
+    color: #a8afcf;
+    background: #1b3b96; }
+  .navbar-nav li a:active {
+    color: #a8afcf;
+    background: #1b3b96; }
+
+.dropdown-menu {
+  background-color: #4566a3; }
+
+/* download設定 */
+.download {
+  padding-bottom: 80px; }
+  .download .download-title {
+    font-size: 2.5rem;
+    font-weight: 700;
+    text-align: center;
+    padding-top: 20px; }
+  .download .ios {
+    margin: 15px auto 0; }
+  .download .store {
+    padding: 10px 0px 10px;
+    line-height: 0; }
+
+.img-center {
+  display: block;
+  margin: 0 auto 0;
+  line-height: 0; }
+
+.member-button {
+  margin: 30px auto 0;
+  text-align: center;
+  border-radius: 15px;
+  background-color: #ffdc00;
+  width: 140px;
+  padding: 0px 0 0px;
+  color: #fff;
+  font-size: 2rem;
+  font-weight: 700; }
+  .member-button a {
+    color: #000; }
+    .member-button a:hover {
+      color: #44637c;
+      text-decoration: none; }
+    .member-button a:active {
+      color: #a8afcf; }
+
+.app-download {
+  width: 140px;
+  float: right; }
+
+.member-apply {
+  width: 140px;
+  float: left; }
+
+footer {
+  color: #fff;
+  text-align: center;
+  background-color: #000;
+  font-size: 1.6rem;
+  line-height: 2;
+  padding-bottom: 10px;
+  padding-top: 20px; }
+
+.copyright {
+  margin-top: 10px;
+  margin-bottom: 10px; }
+
+/* navbar button斷點設定 */
+@media (max-width: 1024px) {
+  .navbar-header {
+    float: none; }
+
+  .navbar-toggle {
+    display: block; }
+
+  .navbar-collapse {
+    border-top: 1px solid transparent;
+    box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.1); }
+
+  .navbar-collapse.collapse {
+    display: none !important; }
+
+  .navbar-nav > li {
+    float: none; }
+
+  .navbar-nav > li > a {
+    padding-top: 10px;
+    padding-bottom: 10px; }
+
+  .navbar-text {
+    float: none;
+    margin: 15px 0; }
+
+  /* since 3.1.0 */
+  .navbar-collapse.collapse.in {
+    display: block !important; }
+
+  .collapsing {
+    overflow: hidden !important; } }
+/* navbar button斷點設定 */
+@media (min-width: 1024px) {
+  .app-download {
+    width: 160px;
+    float: right;
+    margin-right: 30px; }
+
+  .member-apply {
+    width: 160px;
+    float: left;
+    margin-left: 30px; } }
+
+/*# sourceMappingURL=event.css.map */
